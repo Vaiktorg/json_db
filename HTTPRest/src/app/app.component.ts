@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { HttpService } from './services/http.service';
+import { Hero } from './models/hero.model';
 
 @Component({
   selector: 'app-root',
@@ -9,11 +9,31 @@ import { HttpService } from './services/http.service';
 })
 export class AppComponent {
   title = 'app';
-
-  constructor(private httpClient: HttpClient) { }
-
+  found: boolean;
+  hero: Hero = new Hero(11, 'Example', 'This is an example', 'woooweeee');
+  name = '';
+  data;
+  constructor(private httpServ: HttpService) { }
 
   onKeyPress(event: any) {
-    console.log(event.target.value);
+    this.name = event.target.value;
+    // console.log(event.target.value);
+    console.log(this.name);
+  }
+
+  getHero() {
+    this.httpServ.getHeroData(this.name)
+      .subscribe(
+        (hero: any[]) => {
+          hero.forEach(
+            y => {
+              this.hero = y;
+              console.log(this.hero);
+            }
+          );
+          // console.log(new Hero(data[0].id, data[0].name, data[0].description, data[0].mainAbility));
+        }
+      );
+    this.found = true;
   }
 }

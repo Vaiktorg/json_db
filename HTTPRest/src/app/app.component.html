@@ -1,1 +1,6 @@
 <input type="text" (keyup)="onKeyPress($event)">
+<button (click)="getHero()">Get Hero</button>
+<br>
+<div>
+  <span>{{hero.id}}. {{hero.name}} is {{hero.description}}. He's main ability is {{hero.mainAbility}}.</span>
+</div>
