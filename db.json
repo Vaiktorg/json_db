@@ -8,21 +8,21 @@
     },
     {
       "id": 1,
-      "name": "Mat",
-      "description": "Neutral personality. Can never read how he feels.",
-      "mainAbility": "Pepe Overdose"
+      "name": "Stray Cat",
+      "description": "Trying not to get eaten.",
+      "mainAbility": "be kinda cute."
     },
     {
       "id": 2,
-      "name": "Jonathan",
-      "description": "A dude from 'Hawaii' with a fun personality",
-      "mainAbility": "Aloha dudes!"
+      "name": "Random citizen",
+      "description": "walking around minding his own business",
+      "mainAbility": "scaring off little kids."
     },
     {
       "id": 3,
-      "name": "TJay",
-      "description": "A sassy yet kind fellow!",
-      "mainAbility": "Call me TJay.."
+      "name": "SuperMan",
+      "description": "the man of steel. steel isnt that strong compared to other metals.",
+      "mainAbility": "who knows.. aparently he's the most ''powerful''..."
     }
   ]
 }
