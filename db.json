@@ -1,9 +1,28 @@
 {
-  "Heroes":
-  {
-    "id": "1",
-  "name": "Victor",
-  "description":"Trying to get by...",
-  "mainAbility":"crippling anxiety..."
-  }
+  "Heroes": [
+    {
+      "id": 0,
+      "name": "Victor",
+      "description": "Trying to get by...",
+      "mainAbility": "crippling anxiety..."
+    },
+    {
+      "id": 1,
+      "name": "Mat",
+      "description": "Neutral personality. Can never read how he feels.",
+      "mainAbility": "Pepe Overdose"
+    },
+    {
+      "id": 2,
+      "name": "Jonathan",
+      "description": "A dude from 'Hawaii' with a fun personality",
+      "mainAbility": "Aloha dudes!"
+    },
+    {
+      "id": 3,
+      "name": "TJay",
+      "description": "A sassy yet kind fellow!",
+      "mainAbility": "Call me TJay.."
+    }
+  ]
 }
