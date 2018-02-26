@@ -1,9 +1,28 @@
 {
-  "Heroes":
-  {
-    "id": "1",
-  "name": "Victor",
-  "description":"Trying to get by...",
-  "mainAbility":"crippling anxiety..."
-  }
+  "Heroes": [
+    {
+      "id": 0,
+      "name": "Victor",
+      "description": "Trying to get by...",
+      "mainAbility": "crippling anxiety..."
+    },
+    {
+      "id": 1,
+      "name": "Stray Cat",
+      "description": "Trying not to get eaten.",
+      "mainAbility": "be kinda cute."
+    },
+    {
+      "id": 2,
+      "name": "Random citizen",
+      "description": "walking around minding his own business",
+      "mainAbility": "scaring off little kids."
+    },
+    {
+      "id": 3,
+      "name": "SuperMan",
+      "description": "the man of steel. steel isnt that strong compared to other metals.",
+      "mainAbility": "who knows.. aparently he's the most ''powerful''..."
+    }
+  ]
 }
