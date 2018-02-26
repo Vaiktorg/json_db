@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { HttpService } from './services/http.service';
 import { Hero } from './models/hero.model';
 
@@ -10,9 +10,12 @@ import { Hero } from './models/hero.model';
 export class AppComponent {
   title = 'app';
   found: boolean;
-  hero: Hero = new Hero(11, 'Example', 'This is an example', 'woooweeee');
+  hero: Hero;
   name = '';
   data;
+
+  newHero;
+
   constructor(private httpServ: HttpService) { }
 
   onKeyPress(event: any) {
@@ -37,3 +40,4 @@ export class AppComponent {
     this.found = true;
   }
 }
+

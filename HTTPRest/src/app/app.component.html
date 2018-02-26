@@ -3,4 +3,30 @@
 <br>
 <div>
   <span>{{hero.id}}. {{hero.name}} is {{hero.description}}. He's main ability is {{hero.mainAbility}}.</span>
+  <br>
+  <br>
+</div>
+<div>
+  <form [formGroup]="newHero" (ngSubmit)="postHero(newHero.value)">
+    <div class="form-gorup">
+      <label>Name:
+        <input type="text" formControlName="name"> </label>
+    </div>
+
+    <div class="form-gorup">
+      <label>Description:
+        <input type="text" formControlName="desc">
+      </label>
+    </div>
+
+    <div class="form-gorup">
+      <label>Main Ability:
+        <input type="text" formControlName="mainAb">
+      </label>
+    </div>
+
+    <div class="form-gorup">
+      <button (onclick)="postHero()">Add Hero</button>
+    </div>
+  </form>
 </div>
