@@ -4,25 +4,29 @@
       "id": 0,
       "name": "Victor",
       "description": "Trying to get by...",
-      "mainAbility": "crippling anxiety..."
+      "mainAbility": "crippling anxiety...",
+      "image": "https://raw.githubusercontent.com/Vaiktorg/json_db/master/images/apple.png"
     },
     {
       "id": 1,
       "name": "Stray Cat",
       "description": "Trying not to get eaten.",
-      "mainAbility": "be kinda cute."
+      "mainAbility": "be kinda cute.",
+      "image": "https://github.com/Vaiktorg/json_db/blob/master/images/armor.png?raw=true"
     },
     {
       "id": 2,
       "name": "Random citizen",
       "description": "walking around minding his own business",
-      "mainAbility": "scaring off little kids."
+      "mainAbility": "scaring off little kids.",
+      "image": "https://github.com/Vaiktorg/json_db/blob/master/images/knife.png?raw=true"
     },
     {
       "id": 3,
       "name": "SuperMan",
       "description": "the man of steel. steel isnt that strong compared to other metals.",
-      "mainAbility": "who knows.. aparently he's the most ''powerful''..."
+      "mainAbility": "who knows.. aparently he's the most ''powerful''...",
+      "image": "https://github.com/Vaiktorg/json_db/blob/master/images/mods.png?raw=true"
     }
   ]
 }
